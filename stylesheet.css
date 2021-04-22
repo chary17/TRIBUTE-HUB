@@ -1,6 +1,9 @@
 body{
-    background: url('miss_sushanth.jpg');
-    background-repeat: no-repeat;
+   background: url('miss_sushanth.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .register-form{
     margin: 15px auto;
