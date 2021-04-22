@@ -1,0 +1,54 @@
+body,html{
+    margin:0px;
+    height: 100%;
+}
+.index-container
+{
+    margin:auto;height:83%;background-color: unset;
+    background-color: rgb(252, 252, 252);
+    margin-bottom: 0;
+    width: auto;
+}
+fieldset
+{
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+
+a{
+color: blue;
+}
+.header
+{
+    color: rgb(182, 180, 180);margin:auto;
+    font-weight: bold;text-transform: uppercase;
+    font-size: 2em;letter-spacing: 5px;
+    background-color:rgb(240, 241, 243);
+    height: 50px;text-align: center;
+    padding-top: 20px;
+}
+.footer
+{
+    background-color: rgb(182, 182, 182);
+    display: flex;color: rgb(51, 51, 51);
+    font-weight: bold;
+    letter-spacing: 5px;
+    justify-content: center;
+    align-items: center;
+    height: 35px;bottom: 0;
+    
+}
+.links
+{
+    margin:auto;
+    margin-bottom: 0;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+
+}

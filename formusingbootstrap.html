@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheet-form.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+    
+<div class="container">
+    
+    <form class="form-horizontal" action="">
+      <div class="form-group">
+      
+        <label class="control-label" for="FirstName">First Name:</label>
+        <div>
+          <input type="text" class="form-control" id="FirstName" placeholder="Enter First Name" name="FirstName">
+        </div>
+        <label class="control-label" for="pwd">Middle Name:</label>
+        <div>          
+          <input type="text" class="form-control" id="MiddleName" placeholder="Enter Middle Name" name="MiddleName">
+        </div>
+        <label class="control-label" for="pwd">Seecond Name:</label>
+        <div>          
+          <input type="text" class="form-control" id="SecondName" placeholder="Enter Second Name" name="SecondName">
+        </div>
+        <label class="control-label" for="textarea">Enter Address:</label>
+        <div>          
+            <textarea class="form-control rounded-0" placeholder="Enter Address" rows="5" ></textarea>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Gender</label>
+         <div class="radio-options">
+            <input type="radio"  name="gender" id="Male" value="Male">
+            <label for="Male">Male</label>  <br>
+            <input type="radio" name="gender" id="Female" value="Female">
+            <label for="Female">Female</label>  <br>
+            <input type="radio" name="gender" id="Others" value="Others">
+            <label for="Others">Others</label>
+         </div>
+        </div>
+         
+        <div class="form-group">
+            <label class="control-label">Course Interested</label>
+            <div class="checkbox-options">
+                <input type="checkbox" id="Bigdata"  value="Bigdata">&nbsp;<label for="Bigdata">Bigdata</label>   <br>
+              <input type="checkbox" id="Hadoop"  value="Hadoop">&nbsp;<label for="Hadoop">Hadoop</label>   <br>
+               <input type="checkbox" id="Blockchain"  value="Blockchain">&nbsp;<label for="Blockchain">Blockchain</label>  <br>
+                      <input type="checkbox" id="Python programming"  value="Python programming">&nbsp;<label for="Python programming">Python programming</label>  <br>
+                    <input type="checkbox" id="Data science"  value="Data science">&nbsp;<label for="Data science">Data science</label>  <br>
+              </div>
+     
+             
+    </div>
+
+     
+
+      <div class="form-group">        
+        <div class="col-lg-offset-1 col-lg-10">
+          <button type="submit" class="btn btn-default">Submit</button>
+        </div>
+      </div>
+
+    </form>
+  </div>
+  
+</body>
+</html>

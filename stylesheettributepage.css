@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(17, 17, 17);
+}
+.container
+{
+    margin-top: 30px;
+}
+
+#myCarousel
+{
+    background-color: gainsboro;
+    height: 100%;
+}
+img{
+    width: 100%;
+    height: initial;
+}
+
+.navbar-header a{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: rgb(235, 235, 229);
+}
+.navbar-header a:hover
+{
+    color: antiquewhite;
+}
+.navbar 
+{
+ margin-bottom: 0%;
+ padding-bottom: 0%;  
+ background-color:rgb(34, 36, 35);
+}
+.row
+{
+    background-color: transparent;
+
+}
+.quote
+{
+    padding: 15px;
+     background-color: rgb(173, 193, 211); 
+     height: fit-content;
+     min-height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.coloumn
+{
+    box-sizing: border-box;
+    background-clip:padding-box;
+    background-color: white;
+    border: transparent;margin-bottom: 10px;
+    padding: 10px;border-style: groove;border-radius: 5px;
+    box-sizing: border-box;
+}
+.information
+{
+    padding-left: 5px;padding-top: 10px;
+    background-color: white;
+    height: 100px;
+}
+.lead
+{
+    font-size: medium;
+    font-weight: bold;
+}
+.hr-bar p{
+    font-size: x-large;
+    letter-spacing: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: aliceblue;
+    
+}
+.hr-bar{
+    background-color: rgb(76, 142, 201);margin-bottom: 10px;
+    height: 50px;padding-left: 20px;
+    text-align: center;padding-top: 10px;
+}
+.text-on-img
+{
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    color: rgb(206, 204, 204);
+    font-size: 1vw;
+}
+.checkout a
+{
+    color: rgb(47, 190, 42);
+    font-weight: bold;
+}
+.text-on-img a:hover
+{
+    font-weight: bolder;
+    font-size: medium;
+    
+}
+.site-footer
+{
+    background-color:transparent;
+    color: aliceblue;
+}
+.social-links
+{
+    list-style: none;
+    
+}
+ul,li{
+    display: inline;
+}
+li{
+    word-spacing: 20px;
+    
+}
+.footer
+{
+    padding: 15px;
+    color: rgb(99, 113, 116);
+}

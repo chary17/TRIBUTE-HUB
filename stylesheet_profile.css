@@ -1,0 +1,39 @@
+body{
+    width: auto;
+    height: 100%;
+}
+.wrapper
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.container-sticky
+{
+    position: sticky;
+    margin-left: 5px;
+    padding: 20px;
+    width: max-content;
+    top: 20px;
+    height:max-content;
+    background-color:rgb(240, 241, 243);
+    
+}
+.bio-data
+{
+    
+    width:initial;
+    padding: 5px;
+}
+.container2 hr{
+    background-color: black;
+ }
+
+.image-feild img
+{
+    width: 300px;
+}
+.container2
+{  padding: 10px;
+    margin-top: 10px;
+  }
